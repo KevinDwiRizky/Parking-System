@@ -15,6 +15,6 @@ public class Vehicle
 
 public enum VehicleType
 {
-    Car,
+    Mobil,
     Motor
 }

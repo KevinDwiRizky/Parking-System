@@ -15,7 +15,7 @@ public class ReportGenerator
 
     public void CountVehiclesByType(List<Vehicle> vehicles, string typeToCount)
     {
-        VehicleType type = typeToCount.Equals("mobil", StringComparison.OrdinalIgnoreCase) ? VehicleType.Car : VehicleType.Motor;
+        VehicleType type = typeToCount.Equals("mobil", StringComparison.OrdinalIgnoreCase) ? VehicleType.Mobil : VehicleType.Motor;
         int count = vehicles.Count(v => v.Type == type);
         Console.WriteLine(count);
     }

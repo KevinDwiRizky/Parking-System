@@ -35,7 +35,7 @@ public class Program
                     }
                     string registrationNumber = tokens[1];
                     string colour = tokens[2];
-                    VehicleType type = tokens[3].Equals("mobil", StringComparison.OrdinalIgnoreCase) ? VehicleType.Car : VehicleType.Motor;
+                    VehicleType type = tokens[3].Equals("mobil", StringComparison.OrdinalIgnoreCase) ? VehicleType.Mobil : VehicleType.Motor;
                     Vehicle vehicle = new Vehicle(registrationNumber, colour, type);
                     parkingLot.ParkVehicle(vehicle);
                     break;
