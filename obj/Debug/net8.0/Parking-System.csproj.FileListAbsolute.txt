@@ -12,3 +12,4 @@ D:\produktif\testt\Parking-System\obj\Debug\net8.0\refint\Parking-System.dll
 D:\produktif\testt\Parking-System\obj\Debug\net8.0\Parking-System.pdb
 D:\produktif\testt\Parking-System\obj\Debug\net8.0\Parking-System.genruntimeconfig.cache
 D:\produktif\testt\Parking-System\obj\Debug\net8.0\ref\Parking-System.dll
+D:\produktif\testt\Parking-System\obj\Debug\net8.0\Parking-System.sourcelink.json
